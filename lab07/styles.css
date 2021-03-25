@@ -1,0 +1,19 @@
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+h1 {color: #f06335;}
+h2 {color:#bb32ed}
+.evenrow {background-color: darkgray;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+a:link {color: #6769e9; }
+a:visited {color:#c3bbe4;}
+a:hover {color: #999999;}
+body 
+{
+    background-color: #000000 ;
+    color: #ffffff
+}
+nav {background-color:#4b4b4d ;
+    padding: 10px;
+    margin-bottom: 30px;}
+nav a {color: #ffd700;}
+nav a:hover {background-color:#bb32ed ;}
