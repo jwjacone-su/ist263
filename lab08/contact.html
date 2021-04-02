@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .part1 {float:left; padding:20px; padding-right: 70%; margin-right: 40px; margin-left: 40px; background-color: #d0d7df; border-radius:1em;}
+            .links {float:right; margin-left: 50px; padding-top: 20px;}
+
+            .stopfloat {clear:both}
+            .part3 {display: flex; padding:20px; padding-right: 70%; margin-left: 40px; margin-right: 45px; margin-top: 20px; background-color: #d0d7df; border-radius:1em;}
+            .map {order: 2; margin-left: 250px;}
+            .form {order: 1; padding-top: 30px; margin-left: 50px;}
+            img {width: 20px;height: 15px;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <strong>|</strong>
+            <a href="skills.html">Skills</a>
+            <strong>|</strong>
+            <a href="contact.html">Contact</a>
+        </nav>
+<h1>Contact</h1>
+
+    <div class="part1">
+    <div class="links">
+        <a href="https://www.linkedin.com/in/joseph-jaconetta-jr/">
+            <img src="../images/logo-sized.png" alt="linkedin link">
+             </a>
+    <a href="https://www.linkedin.com/in/joseph-jaconetta-jr/" target="_blank">My LinkedIn Profile</a><br> 
+    <a href="mailto:jwjacone@syr.edu">jwjacone@syr.edu</a><br>
+        </div>
+
+    Joseph Jaconetta<br>
+    319 Euclid Ave<br> Syracuse, NY 13244
+    </div>
+<div class="stopfloat"></div>
+
+<div class="part3">
+
+<div class="form">
+<h2>Contact Me Here!</h2>
+        <form action="mailto:jwjacone@syr.edu" method="POST">
+            <p>
+            <label for="fullname">Enter first & last name:</label>
+          
+            <input type="text" name="fullname" id="fullname"><br>
+            </p>
+            <label for="requests">Enter your comments, questions, or concerns:</label><br>
+            <textarea name="requests" id="requests" rows="8" cols="50">Type Here</textarea><br>
+
+            <p>Enter your prefered method of communication:</p>
+            <label for="email">Email</label>
+            <input type="radio" name="communication" id="email" value="Email">
+            <label for="phone">Phone</label>
+            <input type="radio" name="communication" id="phone" value="Phone">
+            <label for="fax">Fax</label>
+            <input type="radio" name="communication" id="fax" value="Fax">
+
+            <br>
+
+            <br>
+            <input type="submit" value="Submit">
+    
+        </form>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.226300600872!2d-76.12935958465475!3d43.03666987914722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37465934245%3A0xa38b071d18733e5f!2s319%20Euclid%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614271906167!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>
+    </body>
+</html>
