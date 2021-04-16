@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Notes: Accessibility</title>
+        <style>
+            #skip {
+                position: absolute;
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* this position based on top left of viewport and pushed the skip link off screen */
+            #skip:focus {
+                position:absolute;
+                left: 10px;
+            }
+            /* when you tab to skip link it moves it back on screen */
+        </style>
+    </head>
+    <body>
+        <h1>Accessibility</h1>
+        <!-- make sure you use h1 for main heading, h2 for
+        subheading, h3 for sub sub heading etc. -->
+
+        <img src="images/Linkedin.png" width="30" alt="linkedin logo">
+
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!-- pound sign says we are linking within page to an element that has an id of maincontent-->
+        <a href="http://www.google.com" tabindex="3">Google</a>
+        <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+        <!-- for complex layouts determine order of items tabbed thru -->
+
+        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+
+        <a id="maincontent"></a>
+        <!--heres the thing the anchor tag links to-->
+
+        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+    </body>
+</html>

@@ -17,3 +17,4 @@ nav {background-color:#4b4b4d ;
     margin-bottom: 30px;}
 nav a {color: #ffd700;}
 nav a:hover {background-color:#bb32ed ;}
+@media only screen and (max-width: 768px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}}
