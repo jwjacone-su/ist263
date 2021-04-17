@@ -1,22 +1,22 @@
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h1 {color: #f06335;}
+h1 {color: #00a79b;}
 h2 {color:#721494}
 .evenrow {background-color: darkgray;}
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em;}
 a:link {color: #191cd4; }
-a:visited {color:#896dfc;}
-a:hover {color: #999999;}
+a:visited {color:#7d5ff8;}
+a:hover {color: #23ffff;}
 body 
 {
     background-color: #ffffff ;
     color: #000000
 }
-nav {background-color:#acacb4 ;
+nav {background-color:#d3cfcf ;
     padding: 10px;
     margin-bottom: 30px;}
-nav a {color: #ffd700;}
-nav a:hover {background-color:#bb32ed ;}
+
+nav a:hover {background-color:#250431 ;}
 @media only screen and (max-width: 768px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}}
 #skip {
     position: absolute;
