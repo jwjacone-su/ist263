@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>In class activity</title>
+        <script>
+            function Leaving(){
+                document.getElementByID("message").innerHTML = "you left this form element";
+                /*alert('you left this form element')*/ 
+            }
+        </script>
+    </head>
+
+    <form action="mailto:jwjacone@syr.edu" method="POST">
+            <!-- you can add any html tag inside form -->
+            <label for="firstname">Enter first name:</label>
+            <!-- for attribute tells browser which form element this links to -->
+            <!-- must match value in id attribute -->
+            <input type="text" name="firstname" id="firstname" onblur="Leaving();"><br>
+
+            <label for="comments">Enter your comments:</label><br>
+            <textarea name="comments" id="comments" rows="10" cols="100" onblur="Leaving();">Tell us what you think!!!</textarea><br>
+
+  
+    </form>
+    <div id="message"></div> 
+</html>

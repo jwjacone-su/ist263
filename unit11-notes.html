@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Notes</title>
+      <!-- vv script tag is for embedding javascript in html -->
+        <script>
+            /* code is named SayHello, it must have curly brackets to start and end the named code */
+            function SayHello() {
+
+            
+            alert('Hello World');
+            /* alert is my function, parenthesis after, inside quotes with a message, semi colon at end */
+        }
+        function SecondFunction() {
+            alert('Second Alert');
+
+        }
+        function ThirdFunction() {
+            alert('third Alert');
+
+        }
+        </script>
+    </head>
+    <body onload="SayHello();">
+        <!-- ^^ this onload is telling our named code to run -->
+        <P>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </P>
+        <a href="http://www.google.com" onclick="SecondFunction();">Google</a>
+        <a href=""onclick="ThirdFunction();">Another Link</a>
+        <!-- these links both use onclick but run different javascript functions -->
+    </body>
+</html>
