@@ -6,7 +6,12 @@
     <title>2020 LA Rams Page 4</title>
     <link rel="stylesheet" href="stylespage.css">
     <style>
-        
+        .banner {display: flex; justify-content: space-evenly; padding:10px; margin-top: 10px; background-color: white; border-radius:1em; border-style: solid; border-color:#fed02a; border-width: 5px;}
+        .thumb1, .thumb2 {margin-top: 15px;}
+        .stats {display: flex; margin-top: 20px; margin-bottom: 20px; background-color: white; color: #003492; padding: 15px; border-radius:1em;align-items: center;}
+        .part1 {order: 1; margin-right: 30px;}
+        .gameimg {order: 2; max-width:100%}
+        .game {background-color:#003492; color: white; padding: 3px; text-align: center; border-style: solid; border-color:#fed02a; border-width: 5px}
     </style>
 </head>
 
@@ -19,15 +24,28 @@
     </nav>
 
     <header>
-        <h1>2020 Los Angeles Rams' Season Recap: Final Statistics</h1>
-        <img src="media/rams_logo1.png" alt="">
+        <div class="banner">
+            <div class="thumb1">
+            <img src="media/rams_logo1.png" alt="" width="50" height="50">
+            </div>
+            <h1>FINAL SEASON STATISTICS</h1>
+            <div class="thumb2">
+            <img src="media/rams_logo1.png" alt="" width="50" height="50">
+            </div>
+        </div>
     </header>
+    <a href="#maincontent" id="skip"><strong>Skip to Content</strong></a>
 
     <main>
-        <h2>Season Statistics</h2>
+        <a id="maincontent"></a>
+        <div class="stats">
+            <div class="part1">
+
 
         <section>
+        <div class="game">
         <h3>Overall</h3>
+        </div>
         <p>
             Record: 10-6 (2nd NFC West)<br>
             Pro Bowlers: DT Aaron Donald, CB Jalen Ramsey<br>
@@ -36,7 +54,9 @@
         </section>
 
         <section>
+        <div class="game">
         <h3>Offense (avg. per game)</h3>
+        </div>
         <p>
             Total Yards: 387.6 (15th)<br>
             Passing Yards: 250.9 (13th)<br>
@@ -47,7 +67,9 @@
         </section>
 
         <section>
+        <div class="game">
         <h3>Defense (avg. per game)</h3>
+        </div>
         <p>
             Total Yards: 303.8 (1st)<br>
             Passing Yards: 190.7 (1st)<br>
@@ -56,7 +78,11 @@
             3rd Down %: 35.4 (3rd)
         </p>
         </section>
+        </div>
+        <div class="gameimg">
         <img src="media/helmet.jpg" alt="rams helmet on field" width="500" height="500">
+        </div>
+        </div>
     </main>
     <div class="buttons">    
         <a href="page3.html" class="previous round">&#8249;</a>
