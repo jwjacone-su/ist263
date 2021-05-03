@@ -4,37 +4,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <title>2020 LA Rams</title>
+    <link rel="stylesheet" href="stylespage.css">
+    <style>
+        .banner {display: flex; justify-content: space-evenly; padding:10px; margin-top: 10px; background-color: white; border-radius:1em; border-style: solid; border-color:#fed02a; border-width: 5px;}
+        .thumb1, .thumb2 {margin-top: 15px;}
+        .intro {display: flex; margin-top: 18px;}
+        .logo1 {order: 1;}
+        .preface {order: 2; text-align: center; margin-left: 45px;}
+        .logo2 {order: 3;}
+        .week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9 {display: flex; margin-top: 20px; background-color: white; color: #003492; padding: 15px; border-radius:1em; /*align-items: center;*/}
+        .part1 {order: 1; margin-right: 30px;}
+        .gameimg {order: 2; max-width: 100%;}
+        .game {background-color:#003492; color: white; padding: 3px; text-align: center; border-style: solid; border-color:#fed02a; border-width: 5px}
+
+        
+
+    </style>
 </head>
 
 <body>
     <nav>
         <a href="index.html">Home (Weeks 1-9)</a>
-        <span>|</span>
         <a href="page2.html">Weeks 10-17</a>
-        <span>|</span>
         <a href="page3.html">Playoffs</a>
-        <span>|</span>
         <a href="page4.html">Season Statistics</a>
     </nav>
 
     <header>
-        <h1>2020 Los Angeles Rams' Season Recap</h1>
-        <img src="media/rams_logo1.png" alt="">
+    <div class="banner">
+        <div class="thumb1">
+        <img src="media/rams_logo1.png" alt="" width="50" height="50">
+        </div>
+        <h1>2020 LOS ANGELES RAMS SEASON RECAP</h1>
+        <div class="thumb2">
+        <img src="media/rams_logo1.png" alt="" width="50" height="50">
+        </div>
+    </div>
     </header>
-    
+    <a href="#maincontent" id="skip"><strong>Skip to Content</strong></a>
     <section class="intro">
+        <div class="logo1">
+        <img src="media/rams_logo3.png" alt="" width="273" height="196">
+        </div>
+        <div class="preface">
         <h2>Season Preface</h2>
         <p>
             The Los Angeles Rams entered the 2020 season with a lot of questions to answer in Sean McVay’s 4th season leading the team. After a disappointing 9-7 record to finish the season last year after reaching the super bowl, and the departure of key pieces such as All-Pro RB Todd Gurley, ILB Cory Littleton and Defensive Coordinator Wade Philips, many people believed the Rams would take a step backwards in 2020. Furthermore, the big story league-wide entering this year was how the NFL as a whole would fare dealing with the limitations caused by the Coronavirus pandemic. Due to the pandemic, all pre-season games were cancelled and the Rams’ first taste of action was at home week one against the Dallas Cowboys.
         </p>
+        </div>
+        <div class="logo2">
         <img src="media/rams_logo2.jpg" alt="rams secondary logo" width="320" height="200">
+        </div>
     </section>
     <!-- Week 1 Starts here -->
+    <a id="maincontent"></a>
     <main>
-    <article>
+    <article class="week1">
+        <div class="part1">
+        <div class="game">
         <h2>
             Week 1: vs. Dallas Cowboys
         </h2>
+        </div>
         <p> The Los Angeles Rams would play their first game in their brand-new, $5 billion stadium, SoFi Stadium, in brand-new uniforms against America’s Team in front of a national crowd on Sunday Night Football. The Rams received the opening kickoff and drove 75 yards for a score on the opening possession, with RB Malcolm Brown scoring the first ever touchdown in Sofi Stadium on a 1-yard run. The score would end up being close throughout the entire game, as two touchdowns by Ezekiel Elliot for the Cowboys helped them take the lead 14-13 going into halftime. In the second half, the Rams stout defense would prove to be the main difference maker as the Rams only allowed one field goal the entire second half. Malcolm Brown scored another touchdown in the third quarter and that would prove to be all the Rams would need to come out victorious. Rams rookie safety Jordan Fuller had an outstanding pro debut, totaling eight tackles including the game-winner on a fourth-down play that was one yard short for the Cowboys. The Rams would win 20-17, and start their season on a high note.
         </p>
         <h3>Breakout Performers</h3>
@@ -42,12 +73,17 @@
             <li>RB Malcolm Brown: 18 CAR, 79 YDS, 2 TD, 3 REC, 31 YDS</li>
             <li>WR Robert Woods: 6 REC, 105 YDS</li>
         </ul>
+        </div>
+        <div class="gameimg">
          <img src="media/week1.jpg" alt="week 1 vs. Cowboys">
-        <hr>
+        </div>
         </article>
         <!-- Week 2 Starts here-->
-        <article>
+        <article class="week2">
+            <div class="part1">
+            <div class="game">
             <h2>Week 2:  at Philadelphia Eagles</h2>
+            </div>
             <p>
                 For their first road game of the season, the Rams would travel to Philadelphia to play the 0-1 Eagles. The Rams would go on to absolutely slaughter the Eagles offensively, putting up 37 points total backed by a stellar performance by Rams QB Jared Goff. Rams TE Tyler Higbee had a breakout game, recording 3 TDs. Rams RB Darrell Henderson also contributed, totaling 121 total yards and a TD. On the defensive side of the ball, the Rams secondary stumped the Eagles offense all game, and Eagles QB Carson Wentz threw 2 interceptions. Rams LB Micah Kiser had a spectacular performance which won him NFC Defensive Player of the Week honors. The Rams beat the Eagles 37-19 and improved to 2-0 on the season.
             </p>
@@ -57,12 +93,17 @@
                 <li>TE Tyler Higbee: 5 REC, 54 YDS, 3 TDS</li>
                 <li>ILB Micah Kiser: 15 TAK, 1 FF</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week2.jpg" alt="week 2 vs. Eagles">
-            <hr>
+            </div>
         </article>
         
-        <article>
+        <article class="week3">
+            <div class="part1">
+            <div class="game">
             <h2>Week 3: at Buffalo Bills</h2>
+            </div>
             <p>
                 After starting the season 2-0, the Rams would travel to Buffalo to play the Bills, a tough team with a 2-0 record as well. This game was the epitome of a tale of two halves, as by 8:05 left in the third quarter, the Bills were stomping the Rams by a score of 28-3. However, after many people believed the Rams were out of the game, they went on to stage the largest comeback in team history, and ended up taking a 32-28 lead on the Bills with 4:30 left in the fourth quarter. Jared Goff turned it around in the second half and with the help of tremendous play by WR Cooper Kupp and RB Darrell Henderson, the Rams scored a TD on four consecutive drives. On the defensive side of the ball, future hall of famer DT Aaron Donald wreaked havoc, tallying 2 sacks and a crucial strip sack which he recovered himself. In the end, the comeback came up short as Bills QB Josh Allen led a miraculous drive at the end of the game to score a touchdown with 15 seconds remaining, off of a very controversial penalty called on Rams CB Darious Williams the play before. The Rams would ultimately lose their first game by a score of 35-32, in what many NFL fans believe was one of the best games of the 2020 season.
             </p>
@@ -72,12 +113,17 @@
                 <li>WR Cooper Kupp: 9 REC, 107 YDS, 1 TD</li>
                 <li>DT Aaron Donald: 5 TAK, 2 SACKS, 1 FF, 1 FR</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week3.jpg" alt="week 3 vs. Bills" width="800" height="480">
-            <hr>
+            </div>
         </article>
 
-        <article>
+        <article class="week4">
+            <div class="part1">
+            <div class="game">
             <h2>Week 4: vs. New York Giants</h2>
+            </div>
             <p>
                 In a game that many believed would have a lopsided result in favor of the Rams, the NY Giants ended up playing a hard-fought game that would go on to be decided on the final possession. The Rams opened the game with a TD run by TE Gerald Everett on the first possession, however for the majority of the rest of the game, the Giants defense stifled the previously explosive Rams offense. Thankfully, the Rams defense played just as well, sacking Daniel Jones 5 times and picking him off once. The play that ultimately changed the game came early in the fourth quarter with the score being 10-9 Rams. Jared Goff found WR Cooper Kupp over the middle of the field for a 55 yard sprint for a touchdown, blowing by numerous Giants defenders to give the Rams a sizeable lead. The Giants would end up driving into Rams territory on their final possession in hopes of tying, however Rams CB Darious Williams intercepted Giants QB Daniel Jones at LA’s 7-yard line to secure the win. Rams’ All-Pro CB Jalen Ramsey played great, tallying 4 tackles including a ferocious tackle for a loss on Giants WR Golden Tate on a crucial third-down. Interestingly enough, Jalen Ramsey and Golden Tate would get into a fight after the game after Ramsey followed Tate into his own locker room. Many believed this fight revolved around the fact that Tate’s sister is the mother of two of Ramsey’s children, and that they are no longer together, making headlines across NFL media. The Rams would win by a score of 17-9 and improve to 3-1 on the season (3-0 against the NFC East).
             </p>
@@ -87,12 +133,17 @@
                 <li>CB Jalen Ramsey: 5 TAK</li>
                 <li>CB Darious Williams: 4 TAK, Game Winning INT</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week4.jpg" alt="week 4 vs. Giants" width="800" height="533">
-            <hr>
+            </div>
         </article>
 
-        <article>
+        <article class="week5">
+            <div class="part1">
+            <div class="game">
             <h2>Week 5: at Washington Football Team</h2>
+            </div>
             <p>
                 Week 5, the Rams traveled to Washington to face Sean McVay’s former team for his first return to FedEx Field since joining the Rams. The Rams’ defense absolutely dominated Washington, collecting 8 sacks and holding their offense to just 108 total yards, which was the lowest amount allowed by a defense of any team all season. Aaron Donald recorded a monster performance with four sacks, tying his career high and jumping into the league lead. He also forced a fumble and was named NFC defensive player of the week. On offense, QB Jared Goff was on fire throwing for 309 yards and two touchdowns, adding a third touchdown on the ground. Washington QB Alex Smith took the field for the first time in almost two years after a gruesome leg injury that many believed would end his career after QB Kyle Allen was injured during a hit from Jalen Ramsey, only to have his return spoiled by the Rams’ incredible defense. The Rams won the game 30-10 and improved to 4-1 on the season, and completed a full sweep of the NFC East.
             </p>
@@ -102,12 +153,17 @@
                 <li>DT Aaron Donald: 4 TAK, 4 SACKS, 1 FF</li>
                 <li>LB Troy Reeder: 7 TAK, 3 SACKS</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week5.jpg" alt="week 5 vs. WFT" width="800" height="480">
-            <hr>
+            </div>
         </article>
 
-        <article>
+        <article class="week6">
+            <div class="part1">
+            <div class="game">
             <h2>Week 6: at San Francisco 49ers</h2>
+            </div>
             <p>
                 Infront of a national crowd for Sunday Night Football, the Rams faced the 49ers for a division rivalry game. Despite missing key players, the 49ers jumped out to a 14-0 lead and never looked back, handedly beating the Rams by a score of 24-16. The Rams offense struggled mightily, with QB Jared Goff only completing 50% of his passes. Goff did connect with WR Robert Woods for a 10-yard touchdown in the second quarter, and also completed a highlight play to Josh Reynolds on 40-yard touchdown pass late in the fourth quarter with the game ultimately already decided. The Rams would fall to 4-2 on the season.
             </p>
@@ -116,12 +172,17 @@
                 <li>RB Darrell Henderson: 14 CAR, 88 YDS</li>
                 <li>WR Josh Reynolds: 2 REC, 45 YDS, 1 TD</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week6.jpeg" alt="week 6 vs. 49ers" width="800" height="533">
-            <hr>
+            </div>
         </article>
 
-        <article>
+        <article class="week7">
+            <div class="part1">
+            <div class="game">
             <h2>Week 7: vs. Chicago Bears</h2>
+            </div>
             <p>
                 For the second week in a row, the Rams played on national TV against the Chicago Bears for the third time in as many years. This was a game defined by defense, as neither offense could really get anything going. However, the Rams defense came out on top, harassing Bears QB Nick Foles for 4 sacks and 2 interceptions. One interception came in the back of the endzone by Taylor Rapp off of a deflected pass, and the second came from All-Pro CB Jalen Ramsey in the fourth quarter (this would be his only INT all season surprisingly). Interestingly enough, the most dominant performer from this game was Rams Punter Johnny Hekker who pinned the Bears inside their own 10 yard line with all 5 of his punts. Hekker was named NFC Special Teams player of the week for his performance. The Bears’ only TD came off of a fumble returned for a touchdown halfway through the 4th quarter. The Rams would win by a score of 24-10 and improve to 5-2 on the season, with their defense beginning to gain serious notoriety across the league.
             </p>
@@ -131,12 +192,17 @@
                 <li>CB Jalen Ramsey: 4 TAK, 1 INT</li>
                 <li>P Johnny Hekker: 5 PUNTS, 221 YDS, 44.2 AVG, 5 IN20</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week7.jpg" alt="week 7 vs. Bears">
-            <hr>
+            </div>
         </article>
 
-        <article>
+        <article  class="week8">
+            <div class="part1">
+            <div class="game">
             <h2>Week 8: at Miami Dolphins</h2>
+            </div>
             <p>
                 In possibly their worst performance of the year, the Rams were completely overwhelmed by the Miami Dolphins defense despite leading heavily in offensive yards and time of possession. It was the turnovers that killed them, as the Dolphins bullied QB Jared Goff into 4 turnovers, in a performance that led many to believe that Goff was not the long-term answer at QB for the Rams. After an abysmal 2nd quarter, the Rams were down 28-7 at halftime and never fully recovered. After terrible performances from former kicker Samuel Sloman, the Rams’ new kicker Kai Forbath made his Rams debut only to go 1 for 2, his second kick missing terribly. The Rams lost by a score of 28-17, and fell to 5-3 at the halfway mark after a head-scratching performance.
             </p>
@@ -146,16 +212,27 @@
                 <li>WR Robert Woods: 7 REC, 75 YDS 1 TD, 2 CAR, 9 YDS</li>
                 <li>DT Aaron Donald: 4 TAK, 1 SACK, 1 FF</li>
             </ul>
+            </div>
+            <div class="gameimg">
             <img src="media/week8.jpg" alt="week 8 vs. Dolphins" width="800" height="480">
-            <hr>
+            </div>
         </article>
-
+        <article class="week9">
+        <div class="game">
         <h2>Week 9: Bye Week</h2>
+        </div>
+    </article>
     </main>
 
         <a href="page2.html"><h4>Continue to next page for Weeks 10-17!</h4></a>
+ <div class="buttons">    
+<!--<a href="#" class="previous round">&#8249;</a>-->
+<a href="page2.html" class="next round">&#8250;</a>
+</div> 
+
         <footer>
             <hr>
+            <div class="name">Joe Jaconetta</div>
             &copy;2021
         </footer>
 </body>
