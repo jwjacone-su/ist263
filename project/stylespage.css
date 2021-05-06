@@ -28,7 +28,16 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:active {
    background-color: #fed02a;
 }
-@media only screen and (max-width: 768px) {nav a {width:100%; display: block; padding-bottom: 5px;} span {display: none;}}
+@media only screen and (max-width: 768px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9 {flex-wrap: wrap;} .intro {flex-wrap: wrap;} 
+.logo1 {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;}
+.logo2 {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;}
+}
 
 /*.buttons {float: right;}*/
 .clear {clear: both;}
