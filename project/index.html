@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="stylespage.css">
     <style>
         .banner {display: flex; justify-content: space-evenly; padding:10px; margin-top: 10px; background-color: white; border-radius:1em; border-style: solid; border-color:#fed02a; border-width: 5px; text-align: center; align-items: center;}
-        .thumb1, .thumb2 {margin-top: 15px;}
         .intro {display: flex; margin-top: 18px;}
         .logo1 {order: 1;}
         .preface {order: 2; text-align: center; margin-left: 45px;}
@@ -16,6 +15,12 @@
         .part1 {order: 1; margin-right: 30px; /*flex: 50%;*/}
         .gameimg {order: 2; max-width: 100%; /*flex: 50%;*/}
         .game {background-color:#003492; color: white; padding: 3px; text-align: center; border-style: solid; border-color:#fed02a; border-width: 5px}
+       /* @media only screen and (max-width: 600px) {
+        .navlinks {
+             display: block;
+            padding: 10px 0px; }
+             }*/
+
 
         
 
@@ -23,7 +28,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navlinks">
         <a href="index.html">Home (Weeks 1-9)</a>
         <a href="page2.html">Weeks 10-17</a>
         <a href="page3.html">Playoffs</a>

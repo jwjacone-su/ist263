@@ -28,7 +28,7 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:active {
    background-color: #fed02a;
 }
-@media only screen and (max-width: 768px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9 {flex-wrap: wrap;} .intro {flex-wrap: wrap;} 
+@media only screen and (max-width: 768px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .wc, .divisional, .stats {flex-wrap: wrap;} .intro {flex-wrap: wrap;} 
 .logo1 {  display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,6 +38,7 @@ nav a:hover, nav a:active {
   margin-right: auto;
   width: 40%;}
 }
+
 
 /*.buttons {float: right;}*/
 .clear {clear: both;}
