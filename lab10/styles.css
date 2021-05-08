@@ -1,6 +1,7 @@
 body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 h1 {color: #036366;}
 h2 {color:#721494}
+h1, h2 {font-family: 'Abril Fatface', cursive;}
 .evenrow {background-color: darkgray;}
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em;}
@@ -29,3 +30,4 @@ nav a:hover {background-color:#250431 ;}
     position:absolute;
     left: 10px;
 }
+
