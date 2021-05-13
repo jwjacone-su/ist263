@@ -1,9 +1,11 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
     background-color:#003492;
     color: white;
 }
-h1 {color: #003492;}
+h1 {/*color: #003492;*/-webkit-text-stroke: 4px #003492; /* width and color */
+color: white; font-size: 4.4em; font-family: 'Archivo Black', sans-serif;}
 .name {float: right;}
 a:link {color: white;}
 a:visited {color: white;}
