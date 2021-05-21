@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <style>
         .banner {display: flex; flex-wrap: wrap; justify-content: space-evenly; padding: 10px; margin-top: 10px; margin-left: 50px; margin-right: 50px; background-color: white; border-radius:1em; border-style: solid; border-color:#fed02a; border-width: 5px; text-align: center; align-items: center;}
         .maintitle {margin:-20px; max-width: 100%;}
@@ -20,6 +22,24 @@
         .game {background-color:#003492; color: white; padding: 3px; text-align: center; border-style: solid; border-color:#fed02a; border-width: 5px}
 
     </style>
+    <a id="button"></a>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script> /* Javascript Reference: https://www.javascriptfreecode.com/21.htm */
+    var btn = $('#button');
+    
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+    
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+    </script>
 </head>
 
 <body>
@@ -32,16 +52,12 @@
 
     <header>
         <div class="banner">
-            <!--<div class="thumb1">
-            <img src="media/rams_logo1.png" alt="" width="50">
-            </div> -->
+       
     
             <img src="media/rams_logo4.png" alt="" width="800" class="maintitle">
-            <h1>2020 SEASON RECAP: WEEKS 10-17</h1>
+            <div class="pgtitle"><h1>2020 SEASON RECAP: WEEKS 10-17</h1></div>
     
-            <!--<div class="thumb2">
-            <img src="media/rams_logo1.png" alt="" width="50">
-            </div> -->
+        
         </div>
     </header>
     <a href="#maincontent" id="skip"><strong>Skip to Content</strong></a>

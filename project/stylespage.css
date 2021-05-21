@@ -26,20 +26,81 @@ nav a:link, nav a:visited {
 
    /* REFERENCE: https://www.bitdegree.org/learn/css-link-color */
 }
+/* Javascript Reference: https://www.javascriptfreecode.com/21.htm */
+#button{
+  display: inline-block;
+  background-color: #fed02a;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
 
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 nav a:hover, nav a:active {
    background-color: #fed02a;
+
 }
-@media only screen and (max-width: 768px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .wc, .divisional, .stats {flex-wrap: wrap;} .intro {flex-wrap: wrap;} 
-.logo1 {  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;}
-.logo2 {  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;}
+@media only screen and (max-width: 600px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .wc, .divisional, .stats {flex-wrap: wrap;} .intro {flex-wrap: wrap;}
+.logo1 {
+  display: none;
 }
+.logo2 {
+  display: none;
+}
+.pgtitle {font-size: 75%;}
+.pgtitle1 {font-size: 65%;}
+.part42 {margin-top: 20px;}
+.statsimg {width: 400px}
+}
+
+@media only screen and (max-width: 768px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .wc, .divisional, .stats {flex-wrap: wrap;} .intro {flex-wrap: wrap;}
+.logo1 {
+  display: none;
+}
+.logo2 {
+  display: none;
+}
+.part42 {margin-top: 20px;}
+}
+
+@media only screen and (max-width: 1200px) {.week1, .week2, .week3, .week4, .week5, .week6, .week7, .week8, .week9, .week10, .week11, .week12, .week13, .week14, .week15, .week16, .week17, .wc, .divisional, .stats {flex-wrap: wrap;} .intro {flex-wrap: wrap;}
+.logo1 {
+  display: none;
+}
+.logo2 {
+  display: none;
+}
+}
+
 
 
 /*.buttons {float: right;}*/

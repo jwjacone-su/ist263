@@ -10,14 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <style>
         .banner {display: flex; flex-wrap: wrap; justify-content: space-evenly; padding: 10px; margin-top: 10px; margin-left: 50px; margin-right: 50px; background-color: white; border-radius:1em; border-style: solid; border-color:#fed02a; border-width: 5px; text-align: center; align-items: center;}
         .maintitle {margin:-20px; max-width: 100%;}
-        .stats {display: flex; margin-top: 20px; margin-bottom: 20px; background-color: white; color: #003492; padding: 15px; border-radius:1em;align-items: center;}
-        .part1 {order: 1; margin-right: 30px;}
-        .gameimg {order: 2; max-width:100%}
+        .stats {display: flex; flex-wrap: wrap; margin-top: 20px; margin-bottom: 20px; background-color: white; color: #003492; padding: 15px; border-radius:1em;align-items: center;}
+        .part41 {order: 1;}
+        .statsimg {order: 2; max-width:100%; margin-left: 30px;  margin-right: 30px;}
+        .part42 {order: 3; flex: 1;} 
         .game {background-color:#003492; color: white; padding: 3px; text-align: center; border-style: solid; border-color:#fed02a; border-width: 5px}
     </style>
+    <a id="button"></a>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script> /* Javascript Reference: https://www.javascriptfreecode.com/21.htm */
+    var btn = $('#button');
+    
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+    });
+    
+    btn.on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+    </script>
 </head>
 
 <body>
@@ -30,16 +51,12 @@
 
     <header>
         <div class="banner">
-            <!--<div class="thumb1">
-            <img src="media/rams_logo1.png" alt="" width="50">
-            </div> -->
+          
     
             <img src="media/rams_logo4.png" alt="" width="800" class="maintitle">
-            <h1>FINAL SEASON STATISTICS</h1>
+            <div class="pgtitle1"><h1>FINAL SEASON STATISTICS</h1></div>
     
-            <!--<div class="thumb2">
-            <img src="media/rams_logo1.png" alt="" width="50">
-            </div> -->
+          
         </div>
     </header>
     <a href="#maincontent" id="skip"><strong>Skip to Content</strong></a>
@@ -47,7 +64,7 @@
     <main>
         <a id="maincontent"></a>
         <div class="stats">
-            <div class="part1">
+            <div class="part41">
 
 
         <section>
@@ -88,8 +105,47 @@
         </section>
         </div>
 
-        <img src="media/helmet.jpg" alt="rams helmet on field" width="500" class="gameimg">
+        <img src="media/helmet.jpg" alt="rams helmet on field" width="500" class="statsimg">
+        
+        <div class="part42">
+        <section>
+            <div class="game">
+            <h3>Notable 2021 Offseason Additions</h3>
+            </div>
+            <p>
+                QB Matthew Stafford<br>
+                WR DeSean Jackson<br>
+                DC Raheem Morris
+            </p>
+            </section>
 
+            <section>
+                <div class="game">
+                <h3>Notable 2021 Offseason Losses</h3>
+                </div>
+                <p>
+                    QB Jared Goff<br>
+                    SS John Johnson III<br>
+                    DT Michael Brockers <br>
+                    CB Troy Hill <br>
+                    C Austin Blythe
+                </p>
+                </section>
+
+            <section>
+                <div class="game">
+                <h3>Notable 2021 Draft Picks</h3>
+                </div>
+                <p>
+                    WR Tutu Atwell (Louisville)<br>
+                    LB Ernest Jones (South Carolina)<br>
+                    DT Bobby Brown III (Texas A&M) <br>
+                    CB Robert Rochell (Central Arkansas) <br>
+                    TE Jacob Harris (Purdue)
+                </p>
+                </section>
+            </div>
+         
         </div>
     </main>
     <div class="buttons">    
